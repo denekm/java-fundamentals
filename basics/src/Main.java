@@ -20,11 +20,11 @@ public class Main {
             double random = Math.random();
             System.out.println("Random Number is: " + random);
             if (random >= 0.5) {
-                System.out.println("heads");
+                System.out.println("Heads");
                 flipCounter ++ ;
                 headCounter ++ ;
             } else {
-                System.out.println("tails");
+                System.out.println("Tails");
                 headCounter = 0;
                 flipCounter ++ ;
             }
