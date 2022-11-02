@@ -1,4 +1,3 @@
-package collections;
 
 import java.util.ArrayList;
 
@@ -7,7 +6,7 @@ public class Restaurant {
     private int stars;
     private int priceCategory;
 
-    ArrayList<Review> reviews = new ArrayList<>() ;
+    ArrayList<Review> reviews = new ArrayList<>();
 
     public Restaurant(String name, int priceCategory) {
         this.name = name;

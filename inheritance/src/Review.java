@@ -1,5 +1,3 @@
-package collections;
-
 public class Review {
     private String author;
     private String body;
@@ -37,10 +35,6 @@ public class Review {
 
     @Override
     public String toString() {
-        return "Review{" +
-                "author='" + author + '\'' +
-                ", body='" + body + '\'' +
-                ", stars=" + stars +
-                '}';
+        return "Review{" + "author='" + author + '\'' + ", body='" + body + '\'' + ", stars=" + stars + '}';
     }
 }
